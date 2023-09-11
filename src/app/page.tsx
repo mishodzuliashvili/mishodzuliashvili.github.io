@@ -21,9 +21,9 @@ export default function Home() {
                 </div>
             </header>
             <section>
-                <p className="font-bungee text-lg flex gap-1 flex-wrap">
+                <div className="font-bungee text-lg flex gap-1 flex-wrap">
                     <span>👋 HI, {"I'M"} MISHO. I </span> <Typing />
-                </p>
+                </div>
             </section>
             <section>
                 <p className="text-lg font-exo font-medium">
