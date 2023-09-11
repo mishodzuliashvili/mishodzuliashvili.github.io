@@ -32,8 +32,6 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v3
               uses: pnpm/action-setup@v2
-                with:
-                  version: 8
             - name: Detect package manager
               id: detect-package-manager
               run: |
